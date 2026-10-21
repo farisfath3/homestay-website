@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rumah Putih D'Sawah | Premium Holiday Home Tanjong Karang</title>
+<meta name="description" content="Rumah Putih D'Sawah — private holiday home by the paddy fields in Tanjong Karang, Selangor. 4.7★ (17 reviews). WhatsApp 012-321 7515 untuk tempahan.">
+<meta name="keywords" content="homestay Tanjong Karang, rumah sewa Sawah Sempadan, holiday home Selangor, homestay sawah padi, rumah putih dsawah">
+<meta property="og:title" content="Rumah Putih D'Sawah | Tanjong Karang">
+<meta property="og:description" content="Private holiday home by the paddy fields. Stay slow. Live kampung.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏡</text></svg>">
+<style>
+:root{
+  --ink:#1e2921;--green:#36533e;--green2:#284232;--green3:#1f3628;
+  --cream:#f7f5ef;--sand:#e9e2d2;--sand2:#f0ead9;--muted:#68716a;
+  --gold:#ad8a4d;--gold2:#c9a463;--white:#fff;--shadow:0 8px 30px rgba(43,58,45,.08);
+  --shadow-lg:0 20px 50px rgba(0,0,0,.08);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{background:var(--cream);color:var(--ink);font-family:"DM Sans",system-ui,sans-serif;line-height:1.6;overflow-x:hidden}
+a{text-decoration:none;color:inherit;transition:.3s}
+img{max-width:100%;display:block}
+.wrap{max-width:1180px;margin:auto;padding:0 28px}
+
+/* ===== HEADER ===== */
+header{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border-bottom:1px solid #eee;transition:.3s}
+header.scrolled{box-shadow:0 4px 20px rgba(0,0,0,.06)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-weight:700;letter-spacing:.08em;font-size:14px;display:flex;align-items:center;gap:8px}
+.brand-dot{width:8px;height:8px;background:var(--gold);border-radius:50%;display:inline-block}
+.navlinks{display:flex;gap:28px;font-size:14px;font-weight:500}
+.navlinks a{position:relative;padding:6px 0}
+.navlinks a::after{content:'';position:absolute;bottom:0;left:0;width:0;height:2px;background:var(--gold);transition:.3s}
+.navlinks a:hover{color:var(--gold)}
+.navlinks a:hover::after{width:100%}
+.navbtn{background:var(--green);color:white;padding:11px 20px;border-radius:999px;font-size:13px;font-weight:700;transition:.3s;white-space:nowrap}
+.navbtn:hover{background:var(--green2);transform:translateY(-2px);box-shadow:0 8px 20px rgba(54,83,62,.3)}
+.menu-toggle{display:none;background:none;border:none;font-size:24px;cursor:pointer;color:var(--ink)}
+
+/* ===== FLOATING WHATSAPP ===== */
+.wa-float{position:fixed;bottom:24px;right:24px;z-index:99;background:#25D366;color:white;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;box-shadow:0 8px 25px rgba(37,211,102,.4);transition:.3s;animation:pulse 2s infinite}
+.wa-float:hover{transform:scale(1.1);box-shadow:0 12px 35px rgba(37,211,102,.6)}
+@keyframes pulse{0%,100%{box-shadow:0 8px 25px rgba(37,211,102,.4)}50%{box-shadow:0 8px 25px rgba(37,211,102,.7),0 0 0 15px rgba(37,211,102,.1)}}
+
+/* ===== HERO ===== */
+.hero{padding-top:76px;position:relative;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1fr 1fr;min-height:700px}
+.hero-copy{display:flex;flex-direction:column;justify-content:center;padding:70px 60px 70px max(28px,calc((100vw - 1180px)/2 + 28px));position:relative;z-index:2}
+.kicker{font-size:12px;text-transform:uppercase;letter-spacing:.18em;color:var(--gold);font-weight:700;margin-bottom:18px;display:flex;align-items:center;gap:8px}
+.kicker::before{content:'';width:30px;height:1px;background:var(--gold)}
+h1,h2,h3{font-family:"Playfair Display",serif;font-weight:600;letter-spacing:-.02em}
+h1{font-size:clamp(48px,6vw,78px);line-height:.98;margin:0 0 22px;letter-spacing:-.035em}
+h1 em{font-style:italic;color:var(--gold)}
+.hero-copy p{font-size:18px;line-height:1.75;color:var(--muted);max-width:530px}
+.hero-actions{display:flex;gap:12px;margin-top:30px;flex-wrap:wrap}
+.btn{padding:15px 24px;border-radius:10px;font-weight:700;font-size:14px;display:inline-flex;align-items:center;gap:8px;transition:.3s;cursor:pointer;border:none}
+.btn-main{background:var(--green);color:white;box-shadow:0 6px 20px rgba(54,83,62,.25)}
+.btn-main:hover{background:var(--green2);transform:translateY(-2px);box-shadow:0 10px 30px rgba(54,83,62,.35)}
+.btn-light{border:1px solid #d6d2c7;background:white;color:var(--ink)}
+.btn-light:hover{border-color:var(--green);background:var(--green);color:white}
+
+/* ===== HERO PHOTO - GAMBAR SAWAH ===== */
+.hero-photo{position:relative;background:url("sawah.jpg") center/cover;background-attachment:fixed}
+.hero-photo::after{content:'';position:absolute;inset:0;background:linear-gradient(120deg,rgba(54,83,62,.1),transparent 50%)}
+.photo-card{position:absolute;left:28px;bottom:28px;background:rgba(255,255,255,.96);padding:18px 22px;border-radius:14px;box-shadow:0 12px 35px rgba(0,0,0,.15);z-index:2;backdrop-filter:blur(10px)}
+.stars{color:var(--gold);letter-spacing:2px;font-size:14px}
+.photo-card b{font-size:22px;font-family:"Playfair Display",serif;display:block;margin:2px 0}
+.photo-card small{color:var(--muted);font-size:12px}
+
+/* ===== SECTIONS ===== */
+section{padding:100px 0;position:relative}
+.section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:48px;flex-wrap:wrap}
+.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.16em;font-size:12px;font-weight:700;display:inline-flex;align-items:center;gap:8px}
+.eyebrow::before{content:'';width:24px;height:1px;background:var(--gold)}
+h2{font-size:clamp(32px,4vw,46px);line-height:1.1;margin:10px 0}
+.lead{color:var(--muted);max-width:620px;line-height:1.8}
+
+/* ===== NOTICE BANNER ===== */
+.notice{background:linear-gradient(135deg,#fff8e7,#fdf3dd);border:1px solid #f0dfa8;border-left:4px solid var(--gold);padding:16px 22px;border-radius:10px;margin:24px 0;display:flex;gap:14px;align-items:flex-start;font-size:14px}
+.notice-icon{font-size:20px;flex-shrink:0}
+.notice b{color:var(--ink)}
+.notice span{color:var(--muted);font-size:12px;display:block;margin-top:2px}
+
+/* ===== STORY - GAMBAR RUMAH (DAH TUKAR, BUKAN KOLAM) ===== */
+.story{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.story-img{height:520px;border-radius:20px;background:url("https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkSignGckO-IG2_gmgbQZZm-3ZR7a0tYjG5k49zQRx6ZLL6M-1-P5kdU88FLoNE2TRPcW4qOHdlmKEWuriD1dfvDYK8Xlx0y_lB9Zz155aoYRBsY7lRDTrXoMfvQvDREqZce5_nrg=w397-h298-k-no") center/cover;box-shadow:var(--shadow-lg);position:relative}
+.story-img::after{content:'';position:absolute;inset:0;border-radius:20px;border:1px solid rgba(255,255,255,.2)}
+.quote{font-family:"Playfair Display",serif;font-size:26px;line-height:1.5;border-left:3px solid var(--gold);padding-left:22px;margin:30px 0;font-style:italic;color:var(--green2)}
+.location-box{background:var(--sand2);padding:18px 22px;border-radius:12px;margin-top:24px;font-size:14px;display:flex;gap:12px;align-items:flex-start}
+.location-box b{display:block;margin-bottom:4px}
+.location-box span{color:var(--muted);font-size:13px}
+
+/* ===== AMENITIES ===== */
+.amenities{background:var(--green);color:white;position:relative;overflow:hidden}
+.amenities::before{content:'';position:absolute;top:-100px;right:-100px;width:400px;height:400px;background:radial-gradient(circle,rgba(173,138,77,.15),transparent 70%);border-radius:50%}
+.amenities h2{color:white}
+.amenities .lead{color:#cdd8d0}
+.amenity-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;position:relative;z-index:2}
+.amenity{border:1px solid rgba(255,255,255,.18);padding:28px 24px;border-radius:16px;background:rgba(255,255,255,.04);transition:.3s;cursor:default}
+.amenity:hover{background:rgba(255,255,255,.08);transform:translateY(-4px);border-color:var(--gold2)}
+.icon{font-size:28px;margin-bottom:16px;display:block}
+.amenity b{display:block;margin-bottom:8px;font-size:16px}
+.amenity span{font-size:13px;color:#d5ded7;line-height:1.7}
+
+/* ===== HIGHLIGHTS ===== */
+.highlights{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
+.tag{background:rgba(173,138,77,.1);color:var(--gold);padding:8px 16px;border-radius:999px;font-size:12px;font-weight:600;border:1px solid rgba(173,138,77,.25)}
+
+/* ===== GALLERY ===== */
+.gallery{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:240px 240px;gap:12px}
+.gallery a{overflow:hidden;border-radius:14px;display:block;position:relative}
+.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
+.gallery a:hover img{transform:scale(1.08)}
+.gallery a::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.3),transparent 50%);opacity:0;transition:.3s}
+.gallery a:hover::after{opacity:1}
+.gallery a:first-child{grid-row:1/3}
+.gallery a:nth-child(4){grid-column:2/4}
+
+/* ===== MAP ===== */
+.map-section{background:var(--sand2)}
+.map-wrap{border-radius:20px;overflow:hidden;box-shadow:var(--shadow-lg);height:450px}
+.map-wrap iframe{width:100%;height:100%;border:0}
+
+/* ===== REVIEWS ===== */
+.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.review{background:#fff;padding:28px;border-radius:18px;box-shadow:var(--shadow);transition:.3s;display:flex;flex-direction:column;gap:14px}
+.review:hover{transform:translateY(-6px);box-shadow:0 20px 40px rgba(43,58,45,.12)}
+.review-top{display:flex;align-items:center;gap:12px}
+.review-avatar{width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--green),var(--gold));display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:16px;flex-shrink:0}
+.review-name{font-weight:700;font-size:14px;line-height:1.3}
+.review-meta{font-size:11px;color:var(--muted);margin-top:2px}
+.review-stars{color:var(--gold);font-size:13px;margin-left:auto}
+.review p{color:#59625b;line-height:1.75;font-size:14px;flex:1}
+.review-owner{background:var(--sand2);padding:12px 14px;border-radius:10px;font-size:12px;color:var(--muted);border-left:2px solid var(--gold)}
+.review-owner b{color:var(--green);display:block;font-size:11px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:4px}
+
+/* ===== FAQ ===== */
+.faq-list{max-width:820px;margin:auto}
+.faq-item{background:white;border:1px solid #eae6dc;border-radius:14px;margin-bottom:12px;overflow:hidden;transition:.3s}
+.faq-item:hover{border-color:var(--gold)}
+.faq-q{padding:22px 26px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-weight:600;font-size:15px;gap:20px}
+.faq-q::after{content:'+';font-size:24px;color:var(--gold);font-weight:300;transition:.3s;flex-shrink:0}
+.faq-item.open .faq-q::after{transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .4s ease;color:var(--muted);font-size:14px;line-height:1.8}
+.faq-item.open .faq-a{max-height:400px}
+.faq-a-inner{padding:0 26px 22px}
+
+/* ===== BOOKING ===== */
+.booking{background:var(--sand);padding:90px 0}
+.bookbox{background:white;border-radius:24px;padding:45px;display:grid;grid-template-columns:1.3fr 1fr;gap:50px;align-items:center;box-shadow:var(--shadow-lg);position:relative;overflow:hidden}
+.bookbox::before{content:'';position:absolute;top:-50px;right:-50px;width:200px;height:200px;background:radial-gradient(circle,rgba(173,138,77,.1),transparent 70%);border-radius:50%}
+.bookbox > *{position:relative;z-index:2}
+.contact-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.contact{border:1px solid #ddd7c9;padding:15px 20px;border-radius:12px;font-weight:700;font-size:14px;display:inline-flex;align-items:center;gap:8px;transition:.3s;background:white}
+.contact:hover{border-color:var(--green);background:var(--green);color:white;transform:translateY(-2px)}
+.contact.wa{background:#25D366;color:white;border-color:#25D366}
+.contact.wa:hover{background:#1ea952;border-color:#1ea952}
+
+/* ===== FOOTER ===== */
+footer{background:var(--green3);color:#dce4de;padding:60px 0 30px}
+.foot{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;margin-bottom:40px}
+.foot h4{font-family:"Playfair Display",serif;font-size:18px;margin-bottom:16px;color:white}
+.foot p,.foot a{font-size:13px;line-height:1.9;color:#aebbb2;display:block}
+.foot a:hover{color:var(--gold2)}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;font-size:12px;color:#8a9a90}
+
+/* ===== ANIMATIONS ===== */
+.fade-up{opacity:0;transform:translateY(30px);transition:opacity .8s ease,transform .8s ease}
+.fade-up.visible{opacity:1;transform:translateY(0)}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:950px){
+  .navlinks{display:none}
+  .menu-toggle{display:block}
+  .navlinks.mobile-open{display:flex;position:absolute;top:76px;left:0;right:0;background:white;flex-direction:column;padding:20px 28px;gap:16px;box-shadow:0 10px 30px rgba(0,0,0,.1);border-bottom:1px solid #eee}
+  .hero-grid,.story,.bookbox{grid-template-columns:1fr}
+  .hero-copy{padding:60px 28px}
+  .hero-photo{min-height:480px;background-attachment:scroll}
+  .amenity-grid{grid-template-columns:1fr 1fr}
+  .reviews{grid-template-columns:1fr}
+  .gallery{grid-template-columns:1fr 1fr;grid-template-rows:200px 200px 200px}
+  .gallery a:first-child{grid-row:auto;grid-column:1/3}
+  .gallery a:nth-child(4){grid-column:auto}
+  .foot{grid-template-columns:1fr 1fr}
+  .section-head{display:block}
+  .section-head .lead{margin-top:15px}
+  .map-wrap{height:350px}
+}
+@media(max-width:520px){
+  h2{font-size:32px}
+  h1{font-size:44px}
+  .amenity-grid{grid-template-columns:1fr}
+  .gallery{grid-template-columns:1fr;grid-template-rows:220px 220px 220px 220px 220px}
+  .gallery a:first-child,.gallery a:nth-child(4){grid-column:auto}
+  .hero-photo{min-height:380px}
+  .bookbox{padding:30px 22px}
+  .foot{grid-template-columns:1fr}
+  section{padding:70px 0}
+  .wa-float{width:54px;height:54px;font-size:24px;bottom:18px;right:18px}
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header id="header">
+<div class="wrap nav">
+  <div class="brand"><span class="brand-dot"></span>RUMAH PUTIH D'SAWAH</div>
+  <nav class="navlinks" id="navlinks">
+    <a href="#about">Tentang</a>
+    <a href="#amenities">Kemudahan</a>
+    <a href="#gallery">Galeri</a>
+    <a href="#location">Lokasi</a>
+    <a href="#reviews">Ulasan</a>
+    <a href="#faq">FAQ</a>
+  </nav>
+  <a class="navbtn" href="#booking">Semak Tempahan</a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Menu">☰</button>
+</div>
+</header>
+
+<!-- FLOATING WHATSAPP -->
+<a class="wa-float" href="https://wa.me/60123217515?text=Assalamualaikum%2C%20saya%20ingin%20bertanya%20tentang%20tempahan%20Rumah%20Putih%20D'Sawah." target="_blank" aria-label="WhatsApp">💬</a>
+
+<main>
+
+<!-- HERO -->
+<section class="hero">
+<div class="hero-grid">
+<div class="hero-copy">
+  <div class="kicker">Tanjong Karang · Selangor</div>
+  <h1>Stay slow.<br><em>Live kampung.</em></h1>
+  <p>Selamat datang ke Rumah Putih D'Sawah — sebuah holiday home yang tenang, bersih dan dikelilingi suasana sawah. Tempat untuk keluarga berkumpul, berehat dan menikmati sisi Tanjong Karang yang lebih perlahan.</p>
+  <div class="hero-actions">
+    <a class="btn btn-main" href="https://wa.me/60123217515?text=Assalamualaikum%2C%20saya%20ingin%20bertanya%20tentang%20tempahan%20Rumah%20Putih%20D'Sawah." target="_blank">WhatsApp untuk booking →</a>
+    <a class="btn btn-light" href="https://www.google.com/maps/search/?api=1&query=Rumah+Putih+D'Sawah+Tanjong+Karang" target="_blank">📍 Lihat lokasi</a>
+  </div>
+  <div class="highlights">
+    <span class="tag">🌾 Pemandangan sawah</span>
+    <span class="tag">🔥 BBQ set</span>
+    <span class="tag">🍳 Dapur lengkap</span>
+    <span class="tag">🚲 Basikal percuma</span>
+  </div>
+</div>
+<div class="hero-photo">
+  <div class="photo-card">
+    <div class="stars">★★★★★</div>
+    <b>4.7 / 5</b>
+    <small>17 ulasan tetamu</small>
+  </div>
+</div>
+</div>
+</section>
+
+<!-- NOTICE -->
+<div class="wrap">
+<div class="notice fade-up">
+  <span class="notice-icon">📢</span>
+  <div>
+    <b>Notis dari pemilik:</b> Maaf, tiada kekosongan bagi tempoh <b>26/5 – 2/6/2026</b>. Terima kasih.
+    <span>Dikemaskini: 25 Mei 2026</span>
+  </div>
+</div>
+</div>
+
+<!-- ABOUT -->
+<section id="about"><div class="wrap story">
+<div class="story-img fade-up"></div>
+<div class="fade-up">
+  <div class="eyebrow">The Rumah Putih experience</div>
+  <h2>Rasa macam balik kampung, tapi lebih selesa.</h2>
+  <p class="lead">Rumah Putih D'Sawah direka untuk percutian yang santai — dekat dengan sawah, jauh daripada kesibukan bandar. Nikmati ruang yang bersih, kemudahan lengkap dan masa berkualiti bersama orang tersayang.</p>
+  <div class="quote">"Penginapan yang sangat selesa dan bersih. Kelengkapan yang lebih mencukupi."</div>
+  <div class="location-box">
+    <span>📍</span>
+    <div>
+      <b>Lokasi</b>
+      <span>Blok D, Jalan Nenas, Sawah Sempadan,<br>45500 Tanjong Karang, Selangor</span>
+      <span style="display:block;margin-top:6px;font-family:monospace;font-size:12px">Plus Code: F67C+GM Tanjung Karang</span>
+    </div>
+  </div>
+</div>
+</div></section>
+
+<!-- AMENITIES -->
+<section class="amenities" id="amenities"><div class="wrap">
+<div class="section-head">
+  <div class="fade-up">
+    <div class="eyebrow">Made for a good stay</div>
+    <h2>Semua yang anda perlukan.</h2>
+  </div>
+  <p class="lead fade-up">Sesuai untuk keluarga yang mahu masak, BBQ, berehat dan menikmati suasana kampung.</p>
+</div>
+<div class="amenity-grid">
+  <div class="amenity fade-up"><div class="icon">🛏️</div><b>Selesa & bersih</b><span>Penginapan yang kemas, luas dan selesa untuk keluarga.</span></div>
+  <div class="amenity fade-up"><div class="icon">🍳</div><b>Dapur & memasak</b><span>Peralatan memasak lengkap untuk kegunaan sendiri.</span></div>
+  <div class="amenity fade-up"><div class="icon">🔥</div><b>BBQ set</b><span>Lengkap untuk sesi BBQ santai bersama keluarga.</span></div>
+  <div class="amenity fade-up"><div class="icon">🌾</div><b>Pemandangan sawah</b><span>Rasai suasana kampung dan pemandangan sawah padi.</span></div>
+  <div class="amenity fade-up"><div class="icon">🚲</div><b>Basikal percuma</b><span>Berbasikal keliling sawah — aktiviti santai untuk semua.</span></div>
+  <div class="amenity fade-up"><div class="icon">🚿</div><b>Changing room</b><span>Ruang menukar pakaian yang selesa untuk tetamu.</span></div>
+  <div class="amenity fade-up"><div class="icon">🧺</div><b>Towel disediakan</b><span>Tuala bersih disediakan untuk setiap tetamu.</span></div>
+  <div class="amenity fade-up"><div class="icon">🅿️</div><b>Parking luas</b><span>Ruang letak kereta yang lapang dan selamat.</span></div>
+</div>
+</div></section>
+
+<!-- GALLERY -->
+<section id="gallery"><div class="wrap">
+<div class="section-head">
+  <div class="fade-up">
+    <div class="eyebrow">A little look around</div>
+    <h2>Galeri Rumah Putih</h2>
+  </div>
+  <p class="lead fade-up">Lihat suasana dan kemudahan yang menanti anda.</p>
+</div>
+<div class="gallery">
+  <a href="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkSignGckO-IG2_gmgbQZZm-3ZR7a0tYjG5k49zQRx6ZLL6M-1-P5kdU88FLoNE2TRPcW4qOHdlmKEWuriD1dfvDYK8Xlx0y_lB9Zz155aoYRBsY7lRDTrXoMfvQvDREqZce5_nrg=w397-h298-k-no" target="_blank"><img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkSignGckO-IG2_gmgbQZZm-3ZR7a0tYjG5k49zQRx6ZLL6M-1-P5kdU88FLoNE2TRPcW4qOHdlmKEWuriD1dfvDYK8Xlx0y_lB9Zz155aoYRBsY7lRDTrXoMfvQvDREqZce5_nrg=w397-h298-k-no" alt="Rumah Putih D'Sawah" loading="lazy"></a>
+  <a href="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmtmUWLU1EVn12gFrECmH7bgmjkEmnDeqXeGrstvF5hk37-QnPVFeJkFo1hvGLeZkzuKsU5BzHP1Q9x5qdyaYIVmpmvcjexO1KC4VaTSw0qcWQI8qtkMb0rm8MZ61JWeYI3F0o=w224-h298-k-no" target="_blank"><img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmtmUWLU1EVn12gFrECmH7bgmjkEmnDeqXeGrstvF5hk37-QnPVFeJkFo1hvGLeZkzuKsU5BzHP1Q9x5qdyaYIVmpmvcjexO1KC4VaTSw0qcWQI8qtkMb0rm8MZ61JWeYI3F0o=w224-h298-k-no" alt="Bilik" loading="lazy"></a>
+  <a href="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkDf4oVFL_7gDQVEMkarrk-mR66Ng02iWRo5F9gkgAPukFbLt1MuUiSkU0pOLZLCrVEC3eJQhCqVEtPmYsPXpG-dgapl9SIqLP7OBnVUdAd7C3Pq6Huz_p0uxiplx9PJxmrU98T9A=w224-h298-k-no" target="_blank"><img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkDf4oVFL_7gDQVEMkarrk-mR66Ng02iWRo5F9gkgAPukFbLt1MuUiSkU0pOLZLCrVEC3eJQhCqVEtPmYsPXpG-dgapl9SIqLP7OBnVUdAd7C3Pq6Huz_p0uxiplx9PJxmrU98T9A=w224-h298-k-no" alt="Exterior" loading="lazy"></a>
+  <a href="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm1hFLQ7j-HB6XCTs1dSDuSjUxh5Ztf2nQBpCAt-LG7GZRcw-pi5It1MEhUJfEQOTuyRwnggnLj8Fxxhe5cREc0PZ-wW7Qf5AYPxxI4aazbpUkBylAx8ZyB-xOycF2yj9xDq4ro=w397-h298-k-no" target="_blank"><img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm1hFLQ7j-HB6XCTs1dSDuSjUxh5Ztf2nQBpCAt-LG7GZRcw-pi5It1MEhUJfEQOTuyRwnggnLj8Fxxhe5cREc0PZ-wW7Qf5AYPxxI4aazbpUkBylAx8ZyB-xOycF2yj9xDq4ro=w397-h298-k-no" alt="Amenities" loading="lazy"></a>
+  <a href="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnZ5Jn0VUCPBDFbGuamSZ9NHvL4vEBzDVb7Yfz5FGeGsiC8n-Y-BoSMp-QmdJW8f0GSTq9bCA6m1CxVAI7FuaD0oudwfXDv-5nYP54w6GrZZT4S_ma_fUmxa_BsHGgzfenM3MNc=w238-h298-k-no" target="_blank"><img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnZ5Jn0VUCPBDFbGuamSZ9NHvL4vEBzDVb7Yfz5FGeGsiC8n-Y-BoSMp-QmdJW8f0GSTq9bCA6m1CxVAI7FuaD0oudwfXDv-5nYP54w6GrZZT4S_ma_fUmxa_BsHGgzfenM3MNc=w238-h298-k-no" alt="Food and drink" loading="lazy"></a>
+</div>
+</div></section>
+
+<!-- LOCATION / MAP -->
+<section id="location" class="map-section"><div class="wrap">
+<div class="section-head">
+  <div class="fade-up">
+    <div class="eyebrow">Find us</div>
+    <h2>Lokasi & arah ke sini.</h2>
+  </div>
+  <p class="lead fade-up">Terletak di Sawah Sempadan, Tanjong Karang — 20 minit dari Kuala Selangor, 1 jam 15 minit dari KL.</p>
+</div>
+<div class="map-wrap fade-up">
+  <iframe src="https://www.google.com/maps?q=Rumah+Putih+D'Sawah+Tanjong+Karang&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Lokasi Rumah Putih D'Sawah"></iframe>
+</div>
+<div style="text-align:center;margin-top:28px" class="fade-up">
+  <a class="btn btn-main" href="https://www.google.com/maps/dir/?api=1&destination=Rumah+Putih+D'Sawah+Tanjong+Karang" target="_blank">🧭 Buka di Google Maps →</a>
+</div>
+</div></section>
+
+<!-- REVIEWS -->
+<section id="reviews" style="padding-top:60px"><div class="wrap">
+<div class="section-head">
+  <div class="fade-up">
+    <div class="eyebrow">Guestbook</div>
+    <h2>17 ulasan. 4.7 bintang.</h2>
+  </div>
+  <p class="lead fade-up">Antara perkara yang sering disebut tetamu: kebersihan, kelengkapan, suasana sawah dan layanan pemilik.</p>
+</div>
+<div class="highlights fade-up" style="margin-bottom:30px">
+  <span class="tag">🌾 rice field atmosphere (3)</span>
+  <span class="tag">🚿 changing room (2)</span>
+  <span class="tag">🍳 cooking equipment (2)</span>
+  <span class="tag">😊 friendly owner (2)</span>
+  <span class="tag">✨ cleanliness (4)</span>
+  <span class="tag">📍 location (2)</span>
+</div>
+<div class="reviews">
+  <div class="review fade-up">
+    <div class="review-top">
+      <div class="review-avatar">N</div>
+      <div><div class="review-name">Nur Farahliyana Mohd Ali</div><div class="review-meta">2 reviews · 4 tahun lalu</div></div>
+      <div class="review-stars">★★★★★</div>
+    </div>
+    <p>"Penginapan yang sangat selesa dan bersih. Kelengkapan yang lebih mencukupi. Ada changing room dan peralatan untuk memasak serta BBQ. Penginapan yang sesuai bagi percutian berkeluarga. Suasana dan pemandangan tepi sawah yang cantik."</p>
+    <div class="review-owner"><b>Balasan pemilik</b>Terima kasih Cik Nur Farahliyana 🙏</div>
+  </div>
+  <div class="review fade-up">
+    <div class="review-top">
+      <div class="review-avatar">Q</div>
+      <div><div class="review-name">Quyyum Sohaimi</div><div class="review-meta">3 reviews · 11 photos · 5 tahun lalu</div></div>
+      <div class="review-stars">★★★★★</div>
+    </div>
+    <p>"A very nice place, near to paddy field, homestay is clean and tidy, equipment for own cooking and BBQ set is prepared by homestay owner (can cook inside). A good experience for city people to feel kampung environment."</p>
+    <div class="review-owner"><b>Balasan pemilik</b>Dear Quyyum, thank you for your review and pleased to know you and family have enjoyed your stay at Rumah Putih recently.</div>
+  </div>
+  <div class="review fade-up">
+    <div class="review-top">
+      <div class="review-avatar">F</div>
+      <div><div class="review-name">Fiena Othman</div><div class="review-meta">Local Guide · 4 tahun lalu</div></div>
+      <div class="review-stars">★★★★★</div>
+    </div>
+    <p>"Bersih, itu yg penting. Kelengkapan mencukupi. Towel disediakan. Kawasan sekitar, okay. Best part, mandi tali air. Breakfast roti canai sedap. Yg penting, tayah bersesak dengan orang lain."</p>
+    <div class="review-owner"><b>Balasan pemilik</b>Terima kasih Cik Fiena 🙏</div>
+  </div>
+  <div class="review fade-up">
+    <div class="review-top">
+      <div class="review-avatar">S</div>
+      <div><div class="review-name">Sayyidah Nafisah</div><div class="review-meta">Local Guide · 16 reviews · 4 tahun lalu</div></div>
+      <div class="review-stars">★★★★★</div>
+    </div>
+    <p>"Rumah kemas, bersih, luas dan cantik. Cukup kelengkapan beserta dapur. Basikal free."</p>
+    <div class="review-owner"><b>Balasan pemilik</b>Terima kasih Cik Sayyidah Nafisah 🙏</div>
+  </div>
+  <div class="review fade-up">
+    <div class="review-top">
+      <div class="review-avatar">A</div>
+      <div><div class="review-name">Abang Hecem</div><div class="review-meta">2 reviews · 4 tahun lalu</div></div>
+      <div class="review-stars">★★★★★</div>
+    </div>
+    <p>"Tpt yg sesuai utk family. Peralatan dlm rumah mencukupi... ruang yg selesa... harga berpatutan.. ada aktiviti berbasikal, mancing, sewa bot, bbq pon ada juga. Parking pon luas, penduduk pon ramah. InsyaAllah ada masa akan book lagi."</p>
+    <div class="review-owner"><b>Balasan pemilik</b>Terima kasih Abang Hecem 🙏</div>
+  </div>
+  <div class="review fade-up">
+    <div class="review-top">
+      <div class="review-avatar">Z</div>
+      <div><div class="review-name">zincofer42</div><div class="review-meta">Local Guide · 568 reviews · 4 tahun lalu</div></div>
+      <div class="review-stars">★★★★★</div>
+    </div>
+    <p>"Nice place to stay for short break holiday. Paddy field chalet views."</p>
+    <div class="review-owner"><b>Balasan pemilik</b>Thank you Mr Zincofer42</div>
+  </div>
+  <div class="review fade-up">
+    <div class="review-top">
+      <div class="review-avatar">S</div>
+      <div><div class="review-name">ShaAnna Hanna</div><div class="review-meta">Local Guide · 29 reviews · 3 tahun lalu</div></div>
+      <div class="review-stars">★★★★★</div>
+    </div>
+    <p>"The best experience to overnight here. Good accommodation."</p>
+    <div class="review-owner"><b>Balasan pemilik</b>Dear ShaHanna, thank you for your review and your stay. Looking forward to your next visit.</div>
+  </div>
+  <div class="review fade-up">
+    <div class="review-top">
+      <div class="review-avatar">A</div>
+      <div><div class="review-name">Azman AB Rahman</div><div class="review-meta">1 review · 4 tahun lalu</div></div>
+      <div class="review-stars">★★★★★</div>
+    </div>
+    <p>"Rumah dan suasana memuaskan."</p>
+    <div class="review-owner"><b>Balasan pemilik</b>Terima kasih En Azman 🙏</div>
+  </div>
+  <div class="review fade-up">
+    <div class="review-top">
+      <div class="review-avatar">M</div>
+      <div><div class="review-name">mjs58</div><div class="review-meta">Local Guide · 5 tahun lalu</div></div>
+      <div class="review-stars">★★★★★</div>
+    </div>
+    <p>"Beautiful." <em style="color:var(--muted);font-size:12px">(Translated)</em></p>
+    <div class="review-owner"><b>Balasan pemilik</b>Thank you, Mr. Jamil</div>
+  </div>
+</div>
+</div></section>
+
+<!-- FAQ -->
+<section id="faq" style="background:var(--cream)"><div class="wrap">
+<div class="section-head" style="text-align:center;display:block">
+  <div class="fade-up" style="text-align:center">
+    <div class="eyebrow" style="justify-content:center">Soalan lazim</div>
+    <h2>Ada soalan? Kami jawab.</h2>
+  </div>
+</div>
+<div class="faq-list">
+  <div class="faq-item fade-up">
+    <div class="faq-q">Berapa kapasiti maksimum Rumah Putih D'Sawah?</div>
+    <div class="faq-a"><div class="faq-a-inner">Rumah ini sesuai untuk percutian keluarga. Untuk maklumat kapasiti terkini, sila WhatsApp terus ke <b>012-321 7515</b> — pihak pengurusan akan beri butiran lanjut.</div></div>
+  </div>
+  <div class="faq-item fade-up">
+    <div class="faq-q">Apa kemudahan yang disediakan?</div>
+    <div class="faq-a"><div class="faq-a-inner">Antaranya: dapur lengkap dengan peralatan memasak, BBQ set, changing room, towel, basikal percuma, dan parking luas. Sesuai untuk family day, gathering kecil, atau retreat santai.</div></div>
+  </div>
+  <div class="faq-item fade-up">
+    <div class="faq-q">Boleh masak & buat BBQ?</div>
+    <div class="faq-a"><div class="faq-a-inner">Boleh! Dapur disediakan untuk memasak, dan BBQ set juga tersedia. Tetamu boleh masak sendiri atau buat BBQ santai di kawasan rumah.</div></div>
+  </div>
+  <div class="faq-item fade-up">
+    <div class="faq-q">Ada aktiviti apa berdekatan?</div>
+    <div class="faq-a"><div class="faq-a-inner">Berbasikal keliling sawah, memancing, sewa bot, mandi tali air, dan menikmati breakfast roti canai di kedai berdekatan. Boleh juga ke Kuala Selangor (20 minit) untuk pasar ikan & Bukit Malawati.</div></div>
+  </div>
+  <div class="faq-item fade-up">
+    <div class="faq-q">Macam mana nak tempah?</div>
+    <div class="faq-a"><div class="faq-a-inner">Terus WhatsApp ke <b>012-321 7515</b> dengan tarikh yang dikehendaki. Pihak pengurusan akan semak kekosongan dan sahkan tempahan.</div></div>
+  </div>
+  <div class="faq-item fade-up">
+    <div class="faq-q">Ada kekosongan untuk tarikh tertentu?</div>
+    <div class="faq-a"><div class="faq-a-inner">Untuk semakan terkini, sila WhatsApp terus. Notis terkini: <em>tiada kekosongan bagi 26/5 – 2/6/2026</em>.</div></div>
+  </div>
+</div>
+</div></section>
+
+<!-- BOOKING -->
+<section class="booking" id="booking"><div class="wrap"><div class="bookbox fade-up">
+<div>
+  <div class="eyebrow">Plan your stay</div>
+  <h2>Ready for a slower weekend?</h2>
+  <p class="lead">Hubungi kami untuk semak kekosongan, harga dan maklumat tempahan. Tarikh anda akan disahkan terus oleh pihak Rumah Putih D'Sawah.</p>
+  <div class="highlights">
+    <span class="tag">✓ Respon pantas</span>
+    <span class="tag">✓ Harga berpatutan</span>
+    <span class="tag">✓ Sesuai keluarga</span>
+  </div>
+</div>
+<div>
+  <div class="contact-row">
+    <a class="contact wa" href="https://wa.me/60123217515?text=Assalamualaikum%2C%20saya%20ingin%20semak%20kekosongan%20Rumah%20Putih%20D'Sawah." target="_blank">💬 WhatsApp</a>
+    <a class="contact" href="tel:0123217515">📞 012-321 7515</a>
+    <a class="contact" href="https://www.google.com/maps/dir/?api=1&destination=Rumah+Putih+D'Sawah+Tanjong+Karang" target="_blank">📍 Directions</a>
+  </div>
+</div>
+</div></div></section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+<div class="wrap">
+  <div class="foot">
+    <div>
+      <h4>RUMAH PUTIH D'SAWAH</h4>
+      <p>Blok D, Jalan Nenas, Sawah Sempadan<br>45500 Tanjong Karang, Selangor<br>Plus Code: F67C+GM</p>
+    </div>
+    <div>
+      <h4>Hubungi</h4>
+      <a href="https://wa.me/60123217515" target="_blank">💬 WhatsApp</a>
+      <a href="tel:0123217515">📞 012-321 7515</a>
+      <a href="https://www.google.com/maps/search/?api=1&query=Rumah+Putih+D'Sawah+Tanjong+Karang" target="_blank">📍 Google Maps</a>
+    </div>
+    <div>
+      <h4>Pautan</h4>
+      <a href="#about">Tentang</a>
+      <a href="#amenities">Kemudahan</a>
+      <a href="#gallery">Galeri</a>
+      <a href="#reviews">Ulasan</a>
+      <a href="#booking">Tempahan</a>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <span>© <span id="year"></span> Rumah Putih D'Sawah · Tanjong Karang</span>
+    <span>Holiday Home · Sawah Sempadan</span>
+  </div>
+</div>
+</footer>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+
+const header = document.getElementById('header');
+window.addEventListener('scroll', () => {
+  header.classList.toggle('scrolled', window.scrollY > 20);
+});
+
+const menuToggle = document.getElementById('menuToggle');
+const navlinks = document.getElementById('navlinks');
+menuToggle.addEventListener('click', () => {
+  navlinks.classList.toggle('mobile-open');
+});
+navlinks.querySelectorAll('a').forEach(a => {
+  a.addEventListener('click', () => navlinks.classList.remove('mobile-open'));
+});
+
+document.querySelectorAll('.faq-q').forEach(q => {
+  q.addEventListener('click', () => {
+    const item = q.parentElement;
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  });
+});
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    const target = document.querySelector(a.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      const top = target.getBoundingClientRect().top + window.scrollY - 80;
+      window.scrollTo({ top, behavior: 'smooth' });
+    }
+  });
+});
+</script>
+</body>
+</html>
